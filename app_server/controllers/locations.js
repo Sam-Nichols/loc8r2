@@ -38,7 +38,7 @@ module.exports.locationInfo = function(req, res) {
             }, {
                 assignment: 'Term Project',
                 duedate: '3 May 2018',
-                points: '250',
+                points: '100',
                 status: 'In Progress'
             }]
         }
