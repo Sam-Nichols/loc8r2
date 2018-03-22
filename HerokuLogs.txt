@@ -1,0 +1,44 @@
+2018-03-21T22:24:09.860573+00:00 heroku[web.1]: Unidling
+2018-03-21T22:24:09.862079+00:00 heroku[web.1]: State changed from down to starting
+2018-03-21T22:24:12.539798+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-03-21T22:24:15.252668+00:00 app[web.1]: 
+2018-03-21T22:24:15.252695+00:00 app[web.1]: > node ./bin/www
+2018-03-21T22:24:15.252694+00:00 app[web.1]: > loc8r@0.0.1 start /app
+2018-03-21T22:24:15.252697+00:00 app[web.1]: 
+2018-03-21T22:24:16.225621+00:00 app[web.1]: Mongoose connection error: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+2018-03-21T22:24:16.230933+00:00 app[web.1]: (node:20) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+2018-03-21T22:24:16.231337+00:00 app[web.1]: (node:20) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-03-21T22:24:16.719292+00:00 heroku[web.1]: State changed from starting to up
+2018-03-21T22:24:18.923745+00:00 heroku[router]: at=info method=GET path="/" host=sn-loc8r2.herokuapp.com request_id=f5f5c444-84fd-4abe-ace8-a1926485f4ed fwd="138.67.193.31" dyno=web.1 connect=1ms service=941ms status=304 bytes=144 protocol=https
+2018-03-21T22:24:18.922437+00:00 app[web.1]: [0mGET / [36m304 [0m930.760 ms - -[0m
+2018-03-21T22:24:19.116029+00:00 app[web.1]: [0mGET /javascripts/jquery-1.11.1.min.js [36m304 [0m5.548 ms - -[0m
+2018-03-21T22:24:19.121262+00:00 app[web.1]: [0mGET /bootstrap/css/amelia.bootstrap.css [36m304 [0m9.392 ms - -[0m
+2018-03-21T22:24:19.122049+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m9.369 ms - -[0m
+2018-03-21T22:24:19.117694+00:00 heroku[router]: at=info method=GET path="/javascripts/jquery-1.11.1.min.js" host=sn-loc8r2.herokuapp.com request_id=65b4ecb4-914f-403f-8428-741a3b26594d fwd="138.67.193.31" dyno=web.1 connect=1ms service=12ms status=304 bytes=238 protocol=https
+2018-03-21T22:24:19.123778+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=sn-loc8r2.herokuapp.com request_id=4c4f3d2b-10bc-4912-8aad-25248db50f33 fwd="138.67.193.31" dyno=web.1 connect=1ms service=18ms status=304 bytes=235 protocol=https
+2018-03-21T22:24:19.122587+00:00 heroku[router]: at=info method=GET path="/bootstrap/css/amelia.bootstrap.css" host=sn-loc8r2.herokuapp.com request_id=c8821b73-644a-44f2-a777-a0fd7fe171fc fwd="138.67.193.31" dyno=web.1 connect=1ms service=16ms status=304 bytes=238 protocol=https
+2018-03-21T22:24:19.763335+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=sn-loc8r2.herokuapp.com request_id=50bd231b-4c53-4a7c-b60b-3dc82c7eafdb fwd="138.67.193.31" dyno=web.1 connect=2ms service=268ms status=404 bytes=1093 protocol=https
+2018-03-21T22:24:19.762475+00:00 app[web.1]: [0mGET /favicon.ico [33m404 [0m265.370 ms - 903[0m
+2018-03-21T22:31:03.682203+00:00 heroku[web.1]: Restarting
+2018-03-21T22:31:03.683123+00:00 heroku[web.1]: State changed from up to starting
+2018-03-21T22:31:03.170367+00:00 app[api]: Release v8 created by user sanichol@mines.edu
+2018-03-21T22:31:03.170367+00:00 app[api]: Attach MONGOLAB_BRONZE (@ref:mongolab-pointy-40220) by user sanichol@mines.edu
+2018-03-21T22:31:04.675095+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-03-21T22:31:04.803635+00:00 heroku[web.1]: Process exited with status 143
+2018-03-21T22:31:05.563225+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-03-21T22:31:07.680860+00:00 app[web.1]: 
+2018-03-21T22:31:07.680886+00:00 app[web.1]: > loc8r@0.0.1 start /app
+2018-03-21T22:31:07.680888+00:00 app[web.1]: > node ./bin/www
+2018-03-21T22:31:07.680890+00:00 app[web.1]: 
+2018-03-21T22:31:08.278211+00:00 app[web.1]: Mongoose connection error: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+2018-03-21T22:31:08.280218+00:00 app[web.1]: (node:20) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+2018-03-21T22:31:08.280297+00:00 app[web.1]: (node:20) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-03-21T22:31:09.207595+00:00 heroku[web.1]: State changed from starting to up
+2018-03-21T22:43:00.510479+00:00 heroku[router]: at=info method=GET path="/" host=sn-loc8r2.herokuapp.com request_id=c5705c6b-8d25-4ac4-9cfd-119b9466836f fwd="138.67.193.31" dyno=web.1 connect=0ms service=659ms status=304 bytes=144 protocol=https
+2018-03-21T22:43:00.512236+00:00 app[web.1]: [0mGET / [36m304 [0m653.652 ms - -[0m
+2018-03-21T22:43:00.643402+00:00 app[web.1]: [0mGET /bootstrap/css/amelia.bootstrap.css [36m304 [0m5.014 ms - -[0m
+2018-03-21T22:43:00.646139+00:00 app[web.1]: [0mGET /stylesheets/style.css [36m304 [0m2.011 ms - -[0m
+2018-03-21T22:43:00.646835+00:00 app[web.1]: [0mGET /javascripts/jquery-1.11.1.min.js [36m304 [0m1.966 ms - -[0m
+2018-03-21T22:43:00.642908+00:00 heroku[router]: at=info method=GET path="/bootstrap/css/amelia.bootstrap.css" host=sn-loc8r2.herokuapp.com request_id=983813ee-8a5b-488c-a175-9495320bff5b fwd="138.67.193.31" dyno=web.1 connect=0ms service=6ms status=304 bytes=238 protocol=https
+2018-03-21T22:43:00.648001+00:00 heroku[router]: at=info method=GET path="/javascripts/jquery-1.11.1.min.js" host=sn-loc8r2.herokuapp.com request_id=bb56ca97-3c3e-4f2e-86c8-b71dfa4d6c4a fwd="138.67.193.31" dyno=web.1 connect=0ms service=7ms status=304 bytes=238 protocol=https
+2018-03-21T22:43:00.646045+00:00 heroku[router]: at=info method=GET path="/stylesheets/style.css" host=sn-loc8r2.herokuapp.com request_id=6ff6100f-f154-466d-91c2-d7049a4aec3e fwd="138.67.193.31" dyno=web.1 connect=0ms service=7ms status=304 bytes=235 protocol=https
